@@ -1,22 +1,228 @@
 
 
-@media (max-width: 1399px) {
- 
-}
-
-
 @media (max-width: 1199px) {
- 
+    body {
+        font-size: 14px;
+    }
+    .header__logo {
+        width: 170px;
+    }
+    .main-menu > ul {
+        gap: 21px;
+    }
+    .header__top {
+        padding: 15px 0 5px;
+        gap: 22px;
+    }
+    .header__bottom {
+        padding: 12px 0;
+    }
+    .default-button {
+        padding: 7px 16px;
+        font-size: 14px;
+        border-radius: 4px;
+    }
+
+
+    .hero__top__content {
+        padding: 240px 0 30px;
+    }
+    .hero__top__content .h1 {
+        font-size: 30px;
+        margin: 0 0 20px;
+    }
+    .hero__top__content h2 {
+        font-size: 23px;
+    }
+    .hr-bt__ttl {
+        padding: 7px 28px 7px 0;
+        font-size: 14px;
+    }
+    .hero__bottom__content h3 {
+        font-size: 19px;
+        margin: 0 0 22px;
+    }
+    .hero__bottom__content {
+        padding: 30px 100px 30px 0;
+    }
+    .hero-shape {
+        top: -6px;
+        width: 147px;
+    }
+
+    .section-a {
+        padding: 49px 0 50px;
+    }
+    .section-a-row {
+        margin-bottom: 60px;
+        --bs-gutter-x: 35px;
+    }
+    .ti-h4 {
+        font-size: 18px;
+        margin: 0 0 14px;
+        padding-left: 5px;
+        border-left-width: 3px;
+    }
+    .cont-blk p {
+        font-size: 16px;
+        margin: 0 0 13px;
+    }
+
+    .quote__content .ti-h4 {
+        margin: 0 0 25px;
+    }
+    .quote__content h5 {
+        font-size: 18px;
+    }
+    .quote__content .quote__auth h6 {
+        font-size: 16px;
+    }
+    .quote__content .quote__auth {
+        margin-top: 15px;
+    }
+    .quote__content {
+        max-width: 790px;
+    }
+    .quote-section {
+        padding: 45px 0 35px;
+    }
+
+    .join-section {
+        padding: 45px 0 40px;
+    }
+    .join__content {
+        padding: 30px 0 0;
+    }
+
+    .footer-logo {
+        width: 170px;
+        margin: 0 0 65px;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+    .fs-menu li a {
+        font-size: 23px;
+    }
+    .fs-menu {
+        width: 66px;
+        gap: 6px;
+    }
+    .f-menu li a {
+        font-size: 13px;
+        gap: 14px;
+    }
+    .f-menu li a .icon {
+        height: 25px;
+        width: 25px;
+    }
+    .f-menu {
+        padding-left: 18px;
+        gap: 12px;
+    }
+    .footer-menu-row-2 {
+        gap: 20px;
+    }
+    .footer-menu-row {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .footer-section {
+        padding: 40px 0;
+    }
+    .footer-shape {
+        width: 400px;
+    }
+    .header__logo {
+        width: 120px;
+    }
+    .header__bottom {
+        padding: 10px 0;
+    }
+    .header__top {
+        padding: 6px 0 5px;
+        gap: 17px;
+    }
+
+
+    .team__member__container {
+        --bs-gutter-x: 40px;
+        max-width: 810px;
+    }
+    .team__member__tc h4 {
+        font-size: 16px;
+    }
+    .team-section {
+        padding: 45px 0;
+    }
 }
 
 
 @media (max-width: 991px) {
- 
+    .hero__top__content {
+        text-align: center;
+    }
+    .hero-shape {
+        display: none;
+    }
+    .hero__top__content {
+        padding: 160px 0 25px;
+    }
+    .hero__bottom__content {
+        text-align: center;
+    }
+    .hero__bottom__content {
+        padding: 30px 0px 30px 0;
+    }
+
+    .section-a-row .col-lg-5 {
+        width: 100%;
+    }
+    .section-a-row .col-lg-7 {
+        width: 100%;
+    }
+
+
+    .footer-logo {
+        margin: 0 0 20px;
+    }
+    .footer__logo__column {
+        margin: 0 0 40px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
 }
 
 
 @media (max-width: 768px) {
- 
+    .hero__top__content .h1 {
+        font-size: 23px;
+        margin: 0 0 19px;
+    }
+    .hero__top__content h2 {
+        font-size: 17px;
+    }
+    .hr-bt__ttl {
+        padding: 7px 18px 7px 0;
+        font-size: 12px;
+    }
+    .hero__bottom__content h3 {
+        font-size: 15px;
+        margin: -1px 0px 17px;
+    }
+    .main-menu > ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-menu-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-menu-row .hr-button {
+        margin-left: 0;
+    }
 }
 
 
