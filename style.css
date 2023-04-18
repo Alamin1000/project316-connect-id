@@ -188,7 +188,7 @@ p:last-child{
   color: var(--theme__color1);
 }
 .offcanvas-close {
-  color: var(--theme__color2);
+  color: var(--theme__color1);
   position: absolute;
   transition: 0.3s;
   right: 15px;
@@ -197,7 +197,7 @@ p:last-child{
   line-height: 1;
 }
 .offcanvas-close:hover {
-  color: var(--theme__color1);
+  color: var(--theme__color2);
 }
 .offcanvas-menu {
   position: fixed;
@@ -231,7 +231,7 @@ p:last-child{
   display: block;
   text-align: center;
   font-size: 14px;
-  color: var(--theme__color2);
+  color: var(--theme__color1);
   padding: 9px;
   font-weight: 600;
 }
