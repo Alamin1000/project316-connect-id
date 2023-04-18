@@ -1,7 +1,8 @@
 /* ---buttons--- */
 .default-button {
-    padding: 8px 20px;
+    padding: 7px 19px;
     font-size: 16px;
+    gap: 9px;
     border-radius: 5px;
     font-weight: 600;
     display: inline-flex;
@@ -11,6 +12,7 @@
     background: var(--theme__color1);
     color: #fff;
     transition: 0.3s;
+    border: 1px solid transparent;
 }
 .default-button:hover {
     background: var(--theme__color2);
@@ -19,6 +21,9 @@
 /* ---buttons---end */
 
 /* small-tools */
+.h-0 {
+    height: 0 !important;
+}
 .underline {
     text-decoration: underline !important;
 }
